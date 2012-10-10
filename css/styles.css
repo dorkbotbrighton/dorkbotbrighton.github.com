@@ -1,0 +1,33 @@
+header{
+  margin-top: 1em;
+}
+h1, h2, h3, h4{
+  font-family: 'VT323', monospace;
+}
+header .lead{
+  font-family: 'VT323', monospace;
+  font-size: 350%;
+  padding-top: 30px;
+}
+
+.nav-container{
+  min-height: 10px;
+  margin-top: 20px;
+}
+nav.span3{
+  margin-left: 0;
+}
+
+nav.affix, nav.affix-bottom{
+  top: 25px;
+}
+/* tablet and below */
+@media (max-width: 767px) {
+  header .row{
+    text-align: center;
+    padding-top: 5px;
+  }
+  nav.affix, nav.affix-bottom{
+    position: static;
+  }
+}
