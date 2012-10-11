@@ -1,9 +1,17 @@
 header{
   margin-top: 1em;
 }
+body{
+  font-family: 'Droid Sans', sans-serif;
+}
 h1, h2, h3, h4{
   font-family: 'VT323', monospace;
 }
+
+p a{
+  text-decoration: underline;
+}
+
 header .lead{
   font-family: 'VT323', monospace;
   font-size: 300%;
@@ -21,6 +29,11 @@ nav.span3{
 nav.affix, nav.affix-bottom{
   top: 25px;
 }
+
+.nav li.active a{
+  font-weight: bold;
+}
+
 /* tablet and below */
 @media (max-width: 767px) {
   header .row{
