@@ -8,10 +8,6 @@ h1, h2, h3, h4{
   font-family: 'VT323', monospace;
 }
 
-p a{
-  text-decoration: underline;
-}
-
 header .lead{
   font-family: 'VT323', monospace;
   font-size: 300%;
@@ -34,6 +30,19 @@ nav.affix, nav.affix-bottom{
   font-weight: bold;
 }
 
+.page-home .hero-unit{
+  background-image: url(../img/bot.png);
+  background-repeat: no-repeat;
+  background-position: 98%;
+}
+
+
+@media (min-width: 980px){
+  .page-home .hero-unit {
+    background-position: 86%;
+  }
+}
+
 /* tablet and below */
 @media (max-width: 767px) {
   header .row{
@@ -42,5 +51,8 @@ nav.affix, nav.affix-bottom{
   }
   nav.affix, nav.affix-bottom{
     position: static;
+  }
+  .page-home .hero-unit{
+    background-image: none;
   }
 }
