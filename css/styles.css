@@ -34,6 +34,8 @@ nav.affix, nav.affix-bottom{
   background-image: url(../img/bot.png);
   background-repeat: no-repeat;
   background-position: 98%;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 
